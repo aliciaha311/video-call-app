@@ -39,7 +39,7 @@ This is one way to run your app — you can also run it directly from within And
 
 ## Notes
 ### My First React Native Project
-This is my first project developed using React Native! This project marks my initial journey into the world of mobile app development.
+This is my first project developed using React Native on my own! As I have only done a few lessons on React Native up until this point, this project marks a crucial part of my journey into the world of mobile app development.
 
 ### Learning Goals
 - **React Native Components**: Understanding the core components and how to utilize them effectively.
