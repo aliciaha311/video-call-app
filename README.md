@@ -1,79 +1,58 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Google Meet & AI/ML Integration on Video Calling App
+#### Task: UI Component Creation and Integration with Google Meet and AI/ML Solution
 
-# Getting Started
+Can only be used on **Android** devices.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+**Thank you so much to [Hitesh Choudhary](https://www.youtube.com/watch?v=8l691BQ-RGc) for helping me set up for React Native, and thank you to [React Native](https://reactnative.dev/) for teaching me the basics along with the documentation for setup on this README.md.**
 
-## Step 1: Start the Metro Server
+## Table of Contents
+* [Installation and Setup](#step-1-installation--setup)
+* [Start the Application](#step-2-start-the-application)
+* [Notes](#notes)
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Step 1: Installation & Setup
+### Prerequisites
+1. Clone the repository: https://github.com/aliciaha311/video-call-app
+2. Install dependencies.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Packages Used
+* `React` - The core library for building the user interface.
+* `react-native` - The core library that includes components and APIs for building the app.
+   - Imported components: `View`, `Text`, `Button`, `StyleSheet`, `Image`, `SafeAreaView`, `StatusBar`, `ScrollView`, `Dimensions`
+* `react-native-orientation-locker` - Library used to maintain portrait mode regardless of how the mobile device is rotated.
+   - `Orientation`
 
-```bash
-# using npm
-npm start
 
-# OR using Yarn
-yarn start
-```
+## Step 2: Start the Application
 
-## Step 2: Start your Application
+Open up your _Android Emulator_ using Android Studio. The emulator used to test this program is on the _Pixel 5 API 34_.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
-
-### For Android
-
-```bash
-# using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### For iOS
+Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ app:
 
 ```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
+npx react-native run-android 
 ```
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ shortly provided you have set up your emulator/simulator correctly.
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+This is one way to run your app — you can also run it directly from within Android Studio.
 
-## Step 3: Modifying your App
+## Notes
+### My First React Native Project
+This is my first project developed using React Native! This project marks my initial journey into the world of mobile app development.
 
-Now that you have successfully run the app, let's modify it.
+### Learning Goals
+- **React Native Components**: Understanding the core components and how to utilize them effectively.
+   - I believe I have a solid understanding of the basics of React Native components, including how to use core components effectively to build user interfaces.
+- **State Management**: Exploring different state management solutions for better app scalability.
+- **API Integration**: Learning how to connect my app with external APIs to enhance functionality.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+### Future Enhancements
+My immediate goal for this project is to implement landscape orientation. I plan to research and experiment with the necessary adjustments to ensure a smooth user experience in both portrait and landscape modes.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+### Next Steps
+- Researching and experimenting with landscape orientation implementation.
+- Exploring advanced React Native features and libraries.
+- Continuously refining my coding skills through practice and project development.
 
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+Thank you for checking out my project! I welcome any feedback or suggestions as I continue to grow and improve my skills in React Native.
